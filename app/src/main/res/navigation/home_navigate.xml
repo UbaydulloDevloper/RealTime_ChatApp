@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigate"
+    app:startDestination="@id/signIn">
+
+    <fragment
+        android:id="@+id/signIn"
+        android:name="com.developer.realtime_chatapp.SignIn"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signIn_to_list_users"
+            app:destination="@id/list_users" />
+    </fragment>
+    <fragment
+        android:id="@+id/list_users"
+        android:name="com.developer.realtime_chatapp.List_users"
+        android:label="fragment_list_users"
+        tools:layout="@layout/fragment_list_users" >
+        <action
+            android:id="@+id/action_list_users_to_message2"
+            app:destination="@id/message2" />
+    </fragment>
+    <fragment
+        android:id="@+id/message2"
+        android:name="com.developer.realtime_chatapp.Message"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" />
+</navigation>

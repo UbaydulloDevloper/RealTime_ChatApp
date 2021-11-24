@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "664080898287",
+    "firebase_url": "https://pitak-app-demo-default-rtdb.firebaseio.com",
+    "project_id": "pitak-app-demo",
+    "storage_bucket": "pitak-app-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664080898287:android:b98a3678d3483fd8cea31a",
+        "android_client_info": {
+          "package_name": "com.developer.realtime_chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664080898287-5nhb9foo7h1ono3srfh9nsjh50hhsaae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa031hq4fzRMVn5Lwu9vhBW87nkQ6sVBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664080898287-5nhb9foo7h1ono3srfh9nsjh50hhsaae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
